@@ -21,7 +21,7 @@ import org.eclipse.swt.widgets.Shell;
 
 public class UpdateHandler {
     private static final String REPOSITORY_LOC = System.getProperty("UpdateHandler.Repo",
-            "C:\\p2 update site\\repository");
+            "C:\\Users\\T.Aathman\\SDK workspace p2\\test update site");
 
     @Execute
     public void execute(final IProvisioningAgent agent, final Shell shell, final UISynchronize sync,
